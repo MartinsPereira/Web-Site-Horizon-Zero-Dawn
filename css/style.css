@@ -231,6 +231,7 @@ img {
   font-family: horizon, 'Lightyears', Arial, Helvetica, sans-serif;
   font-size: 28px;
   color: #A86400;
+  font-weight: 500;
   letter-spacing: 1px;
 }
 
@@ -316,6 +317,7 @@ img {
   opacity: 0;
   transition: .3s;
   font-family: horizon,'Lightyears', monospace;
+  font-weight: 500;
   font-size: 24px;
 }
 
@@ -497,15 +499,23 @@ img {
     margin: 0 auto;
   }
   .ul-jogos li{
+    width: 100%;
     max-width: 406px;
   }
   .ul-jogos li img{
+    width: 100%;
     max-width: 317px;
   }
   .ul-jogos li:nth-child(1) > div:nth-child(2) p{
-    max-width: 340px;
+    width: 100%;
   }
   .ul-jogos li:nth-child(1) > div:nth-child(1) p{
-    max-width: 316px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px){
+  .container{
+    padding: 10px 25px;
   }
 }
