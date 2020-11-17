@@ -392,12 +392,12 @@ img {
 }
 
 .ul-jogos li{
-  max-width: 406px;
+  width: 406px;
   margin: 10px 0;
 }
 
 .ul-jogos li img{
-  max-width: 317px;
+  width: 317px;
   margin: 0 auto;
 }
 
@@ -430,11 +430,11 @@ img {
 }
 
 .ul-jogos li:nth-child(1) > div:nth-child(2) p{
-  max-width: 340px;
+  width: 340px;
 }
 
 .ul-jogos li:nth-child(1) > div:nth-child(1) p{
-  max-width: 316px;
+  width: 316px;
 }
 .footer{
   background: url('../img/svg/backFooter.svg') no-repeat center;
@@ -496,11 +496,16 @@ img {
     padding-top: 30px;
     margin: 0 auto;
   }
-  .ul-jogos {
-    gap: 50px;
+  .ul-jogos li{
+    max-width: 406px;
   }
-  .backNovoMundo h3 {
-    padding: 0 10px;
-    font-size: 22px;
+  .ul-jogos li img{
+    max-width: 317px;
+  }
+  .ul-jogos li:nth-child(1) > div:nth-child(2) p{
+    max-width: 340px;
+  }
+  .ul-jogos li:nth-child(1) > div:nth-child(1) p{
+    max-width: 316px;
   }
 }
